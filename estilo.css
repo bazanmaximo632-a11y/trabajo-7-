@@ -1,0 +1,36 @@
+body { background-color: red; }
+
+.amarillo {background-color: yellow; text-align: center; font-size: 100px}
+h2 { background-color: yellow; font-size: 50px; }
+h3 {text-align: center; background-color: yellow; font-size: 25px;}
+.empanadas { border: 5px solid blue; width: 500px; height: 250px; }
+.imagen-instagram {width: 250px; height: 125px; }
+.imagen-tiktok {width: 250px; height: 125px; }
+.imagen-facebook {width: 250px; height: 125px; }
+header { background-color: yellow; }
+nav { background-color: green;
+margin-bottom: 100px
+    }
+section { background-color: orange; }
+footer { background-color: brown; }
+p {font-size: 25px}
+.boton-flotante {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 1000;
+}
+
+.boton-flotante img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.fotito {
+    display: flex;
+    justify-content: center;
+        }
+.imagenes-contactos {
+  display: flex;
+  justify-content: space-evenly;
+}
